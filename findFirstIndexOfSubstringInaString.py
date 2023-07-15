@@ -7,5 +7,5 @@ def findIndex(str1, str2):
 
 if __name__ == "__main__":
   str1 = "sadpeopletalksadideasinsadmoods"
-  str2 = "sad"
+  str2 = "mun"
   print(findIndex(str1, str2))
