@@ -49,5 +49,5 @@ if __name__ == "__main__":
     print("No Matchi for the target value")
 
 # Fourht Function
-b = [1,2,1,1,3]
+b = [1,2,1,1,3,3,3,3,3,3,3]
 print(majorityElement(b))
