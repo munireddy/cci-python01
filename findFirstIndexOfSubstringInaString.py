@@ -17,11 +17,17 @@ def isDuplicateElementPresentInArray(arr1):
 
 def arrayIndeciesMatchingTargetValue(arr1, target):
   l1 = []
-  for i in range(0, len(arr1) + 1):
-    for j in range( i+1, len(arr1)):
+  for i in range(0, len(arr1)/2 + 1):
+    for j in range( i+1, len(arr1) + 1):
       if arr1[i] + arr1[j] == target:
         l1.append((i,j))
-  return l1      
+  return l1
+
+#Majority Element is the element that appears more than n/2 time in a array of n elements
+
+def majorityElement(arr1):
+   for i in rage (0, len(arr1)/2 + 1):
+     pass
 
 if __name__ == "__main__":
   str1 = "sadpeopletalksadideasinsadmoods"
