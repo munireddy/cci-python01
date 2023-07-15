@@ -1,1 +1,12 @@
-sample
+name: build-and-test
+on:
+  push:
+    branches:
+      - '**'
+jobs:
+  build-and-test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: python findFirstIndexOfSubstringInaString.py
+  
