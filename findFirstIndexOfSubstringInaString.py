@@ -23,11 +23,14 @@ def arrayIndeciesMatchingTargetValue(arr1, target):
         l1.append((i,j))
   return l1
 
-#Majority Element is the element that appears more than n/2 time in a array of n elements
+#Majority Element is the element that appears more than n/2 time in an array of n elements
 
 def majorityElement(arr1):
-   for i in rage (0, int(len(arr1)/2) + 1):
-     pass
+   len_arr1 = len(arr1) 
+   for i in range (0, int(len(arr1)/2) + 1):
+     if(arr1.count(arr1[i]) > len_arr1/2):
+       return arr1[i]
+   return -1
 
 if __name__ == "__main__":
   str1 = "sadpeopletalksadideasinsadmoods"
@@ -44,3 +47,7 @@ if __name__ == "__main__":
     print(l1)
   else:
     print("No Matchi for the target value")
+
+# Fourht Function
+b = [1,2,1,1,3]
+print(majorityElement(b))
