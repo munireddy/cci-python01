@@ -19,7 +19,7 @@ def arrayIndeciesMatchingTargetValue(arr1, target):
   l1 = []
   for i in range(0, len(arr1) + 1):
     for j in range( i+1, len(arr1)):
-      if arr1[i] + arr1[j] = target:
+      if arr1[i] + arr1[j] == target:
         l1.append((i,j))
   return l1      
 
