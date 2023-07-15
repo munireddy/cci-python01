@@ -33,7 +33,7 @@ if __name__ == "__main__":
   print(isDuplicateElementPresentInArray(a))
 
   # Third function
-  l1 = arrayIndeciesMatchingTargetValue(arr1, 9)
+  l1 = arrayIndeciesMatchingTargetValue(a, 9)
   if len(l1) >= 1:
     print(l1)
   else:
