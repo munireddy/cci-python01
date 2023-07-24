@@ -9,6 +9,7 @@ def findIndex(str1, str2):
       return i
   return -1
 
+# arr.count() is an O(n) operation, every iteration we are parsing through the whole array once. 
 def isDuplicateElementPresentInArray(arr1):
   for i in range(0, len(arr1) -1 ):
     if arr1.count(arr1[i]) >1 :
